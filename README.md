@@ -3,6 +3,7 @@ This code downloads the webnovel/text from the Noveldex website and creates a eb
 
 ## Dependencies
 pip install before running code.
+
 Seleniumbase
 
 ebooklib
