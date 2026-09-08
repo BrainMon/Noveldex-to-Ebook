@@ -1,10 +1,12 @@
 ## Noveldex-to-Ebook
 This code downloads the webnovel/text from the Noveldex website and creates a ebook from that. Used to archive webnovels from the website.
 
-### Dependencies
+## Dependencies
 pip install before running code.
 Seleniumbase
+
 ebooklib
+
 BeautifulSoup
 
 ## How to run
@@ -14,6 +16,7 @@ The old version used the variables in the code. This new one the reads the json 
 
 Commands to run code:
 python Noveldex_webscraper.py --novel "Murim Psychopath"
+
 python Noveldex_webscraper.py --update
 
 ## Errors that might Occur
