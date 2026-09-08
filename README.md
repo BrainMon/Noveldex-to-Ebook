@@ -4,11 +4,11 @@ This code downloads the webnovel/text from the Noveldex website and creates a eb
 ## Dependencies
 pip install before running code.
 
-Seleniumbase
+> Seleniumbase
 
-ebooklib
+> ebooklib
 
-BeautifulSoup
+> BeautifulSoup
 
 ## How to run
 The old version used the variables in the code. This new one the reads the json for the variables. In noveldex_novels.json, add or modify novels to download. 
