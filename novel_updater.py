@@ -174,7 +174,7 @@ def update_all(novel):
 
 def update_pages(novel_name, pages):
     print("updating jason")
-    with open("novels.json", "r", encoding="utf-8") as f:
+    with open("noveldex_novels.json", "r", encoding="utf-8") as f:
         novels = json.load(f)
 
     novel = next((n for n in novels if n["name"] == novel_name), None)
@@ -182,5 +182,5 @@ def update_pages(novel_name, pages):
     if (novel["pages"] < pages):
         novel["pages"] = pages
 
-    with open("novels.json", "w", encoding="utf-8") as f:
+    with open("noveldex_novels.json", "w", encoding="utf-8") as f:
         json.dump(novels, f, indent=4, ensure_ascii=False)
